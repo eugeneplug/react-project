@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+.NavLogo {
+    font-size: 24px;
+}
+a {
+    color: white;
+}
+
+.NavContentBtn {
+    color: white;
+    width: 154px;
+    height: 49px;
+    background-color: #B85C38;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+
+}
